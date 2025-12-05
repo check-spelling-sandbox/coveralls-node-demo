@@ -19,8 +19,8 @@ This repo shows CI configuration examples for parallel build coverage merging wh
 * Add your `COVERALLS_REPO_TOKEN` to CircleCI environment variables.
 * Enable 3rd-party Orb usage in the organization's security settings on CircleCI in order to use the Coveralls Orb.
 
-### Github Actions Setup
+### GitHub Actions Setup
 
-* `COVERALLS_REPO_TOKEN` is not required to identify repos coming from Github
-* Instead, use `secrets.GITHUB_TOKEN` as specified in the README for [Coveralls Github Action](https://github.com/marketplace/actions/coveralls-github-action)
+* `COVERALLS_REPO_TOKEN` is not required to identify repos coming from GitHub
+* Instead, use `secrets.GITHUB_TOKEN` as specified in the README for [Coveralls GitHub Action](https://github.com/marketplace/actions/coveralls-github-action)
 * Example in [`.github/workflows/workflow.yml`](https://github.com/coverallsapp/coveralls-node-demo/blob/master/.github/workflows/workflow.yml).
